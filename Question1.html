@@ -1,0 +1,22 @@
+<!DOCTYPE >
+<html>
+<head>
+    <title>Change Paragraph Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; }
+    </style>
+</head>
+<body>
+    <div id="myElement">
+        <p id="myParagraph">Welcome to my website !</p>
+    </div>
+    <button onclick="changeContent()">Click to Change</button>
+	
+    <script>
+        function changeContent() {
+            document.getElementById("myParagraph").textContent = "Hello there !";
+        }
+    </script>
+</body>
+</html>
